@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:id="@+id/header_main"
+    >
+
+      <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+          android:id="@+id/img_header"
+          android:layout_gravity="center_horizontal"
+          />
+      <TextView
+          android:id="@+id/header_name"
+          android:text="登录账号姓名"
+          android:textSize="20sp"
+          android:gravity="center_horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+      <TextView
+          android:id="@+id/header_quanxian"
+          android:text="权限"
+          android:textSize="20sp"
+          android:gravity="center_horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+
+
+</LinearLayout>

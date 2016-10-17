@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+    <item
+        android:title="增加"
+        android:id="@+id/menu_zj"
+    ></item>
+    <item
+        android:title="删除"
+        android:id="@+id/menu_sc"
+
+    ></item>
+    <item
+        android:title="修改"
+        android:id="@+id/menu_xg"
+    ></item>
+        <item
+            android:title="查找"
+            android:id="@+id/menu_cz"></item>
+
+</group>
+
+
+</menu>

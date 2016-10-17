@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.studentsystem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivityT">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SqlFH.MainActivity"></activity>
+        <!-- 插入对话框 -->
+            <activity android:name=".SqlFH.InsertDialog"
+                android:theme="@android:style/Theme.Dialog"
+                ></activity>
+        <!-- 删除对话框 -->
+            <activity android:name=".SqlFH.DeleteDialog"
+                android:theme="@android:style/Theme.Dialog"
+                ></activity>
+        <!-- 更新对话框 -->
+        <activity android:name=".SqlFH.UpdateDialog"
+            android:theme="@android:style/Theme.Dialog"
+            >
+        </activity>
+        <activity android:name=".StudentInterface"></activity>
+    </application>
+
+</manifest>

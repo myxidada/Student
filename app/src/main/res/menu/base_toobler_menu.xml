@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="退出"
+        android:id="@+id/exit"
+        android:showAsAction="ifRoom"
+        android:icon="@mipmap/ic_launcher"
+        ></item>
+    <item
+        android:title="注销账号"
+        android:id="@+id/cancellation"
+        android:showAsAction="never"
+    >
+    </item>
+
+</menu>
